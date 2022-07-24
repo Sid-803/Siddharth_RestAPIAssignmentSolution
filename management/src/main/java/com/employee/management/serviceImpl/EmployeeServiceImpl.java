@@ -31,11 +31,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public void DeleteEmployeeById(int theId) {
 		employeeRepo.deleteById(theId);
-		
-	}
-
-	@Override
-	public void ListEmployeeByFirstName() {
 
 	}
 

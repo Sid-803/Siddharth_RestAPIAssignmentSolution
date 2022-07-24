@@ -7,16 +7,13 @@ import com.employee.management.entity.Employee;
 import com.employee.management.repository.EmployeeRepo;
 
 public interface EmployeeService {
-	
+
 	public List<Employee> listAllEmployee();
-	
-	public void ListEmployeeByFirstName();
 
 	public Optional<Employee> listEmployeeById(int theId);
 
 	public void DeleteEmployeeById(int theId);
-	
+
 	public void saveEmployee(Employee employee);
-	
 
 }
